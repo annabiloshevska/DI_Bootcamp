@@ -1,0 +1,48 @@
+Python Fundamentals Cheat Sheet
+
+Variable: A symbolic name that is bound to a value.
+Data Type: Defines the type of value a variable can hold (e.g., int, float, string).
+List: A mutable ordered collection of items. Example: [1, 2, 3].
+Tuple: An immutable ordered collection of items. Example: (1, 2, 3).
+Dictionary: A collection of key-value pairs. Example: {'name': 'Alice', 'age': 25}.
+Set: An unordered collection of unique items. Example: {1, 2, 3}.
+Loop: A control flow structure used to repeat a block of code. Examples: for, while.
+Conditional: Used to perform different actions based on different conditions (if, else, elif).
+Function: A block of code that only runs when it is called. Example: def my_function():.
+Class: A blueprint for creating objects (instances). Example: class Dog:.
+Object: An instance of a class.
+Method: A function defined inside a class that operates on an object.
+Lambda Function: An anonymous function defined with the lambda keyword.
+List Comprehension: A concise way to create lists. Example: [x**2 for x in range(5)].
+Exception: An error that occurs during the execution of a program (e.g., try, except).
+Import: Bringing in external modules to extend Python functionality. Example: import math.
+File Handling: Opening, reading, writing, and closing files using Python’s built-in functions (open, read, write, close).
+Iterator: An object that can be iterated upon, returning one item at a time (e.g., lists, tuples).
+Generator: A type of iterator created using a function with yield instead of return.
+Decorator: A function that modifies the behavior of another function or method.
+
+
+
+Data Analysis Cheat Sheet
+
+Dataset: A collection of data, usually in tabular form (rows and columns).
+Pandas: A powerful Python library used for data manipulation and analysis, providing data structures like Series and DataFrame.
+DataFrame: A 2D labeled data structure in Pandas (rows and columns). Example: df = pd.DataFrame().
+Series: A one-dimensional labeled array in Pandas. Example: s = pd.Series([1, 2, 3]).
+NaN: Stands for Not a Number, representing missing or undefined values.
+GroupBy: A method in Pandas to split data into groups, apply a function, and combine the results.
+Merge: Combining two or more DataFrames using a common column or index.
+Pivot Table: A data aggregation tool in Pandas that summarizes data.
+Numpy: A Python library used for numerical operations, particularly with arrays and matrices.
+Array: A data structure in Numpy used to store values of the same data type.
+Broadcasting: The ability of Numpy to perform operations on arrays of different shapes.
+Matplotlib: A Python library used for creating static, animated, and interactive visualizations.
+Plot: A graphical representation of data. Examples: line plot, scatter plot.
+Histogram: A type of plot that shows the distribution of a dataset.
+Scatter Plot: A type of plot that displays the relationship between two variables using dots.
+Correlation: A statistical measure that expresses the extent to which two variables are linearly related.
+Descriptive Statistics: Statistical methods that summarize the features of a dataset (mean, median, mode, variance).
+Outlier: A data point that is significantly different from the other data points in the dataset.
+Missing Data: Data that is absent or not available in a dataset, often handled with imputation or deletion.
+Data Cleaning: The process of correcting or removing inaccurate, corrupted, or irrelevant data.
+
