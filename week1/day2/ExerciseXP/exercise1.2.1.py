@@ -58,7 +58,7 @@ while True:
     print(f'Adding {user_topping}, to your pizza')
     toppings.append(user_topping)
 
-#8  
+ 
 print('Your pizza will contain these toppings:')
 for topping in toppings:
         print(f'- {topping}')
