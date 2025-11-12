@@ -1,0 +1,11 @@
+URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week1/day2/DailyChallenge/daily_ch2.py
+suggestions for improvement:
+- Consider adding comments to explain the purpose of each section of the code, especially the loop and conditional statements.
+- The variable names are descriptive, but could be slightly improved for better clarity (e.g., `result_string` could be `unique_string`).
+- No error handling implemented
+Brief justification:
+- correctness: The code correctly implements both challenges. Challenge 1 generates a list of multiples based on user input, and Challenge 2 removes consecutive duplicate letters from a string, as described in the chapter content.
+- readability: The code is generally readable, with clear variable names and a straightforward structure. However, adding comments would further improve readability.
+- performance: The code is efficient for the given tasks. The loops are simple and the string manipulation is straightforward.
+- security: The code is reasonably secure. Using `int(input())` mitigates some basic input vulnerabilities. However, more robust input validation could be implemented.
+
