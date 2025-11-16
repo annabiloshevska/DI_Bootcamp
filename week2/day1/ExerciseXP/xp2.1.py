@@ -53,10 +53,34 @@ sarahs_dog.bark()
 davids_dog.jump()
 sarahs_dog.jump()
 
-
 #Step 4: Compare Dog Sizes
 
 if davids_dog.height > sarahs_dog.height:
     print(f'{davids_dog.name} is bigger that {sarahs_dog.name}')
 else:
-    print(f'{sarahs_dog.name} is bigger that {davids_dog.name}')   
+    print(f'{sarahs_dog.name} is bigger that {davids_dog.name}')
+
+#Exercise 3 : Who’s the song producer?
+
+# Create a class called Song.
+# In the __init__ method, take lyrics (a list) as a parameter and create a corresponding attribute.
+# Create a sing_me_a_song() method that prints each element of the lyrics list on a new line.
+class Song:
+    def __init__(self, lyrics)
+        self.lyrics = lyrics
+
+ def sing_ma_a_song(self):
+    for line in self.lyrics:
+        print(line)
+
+
+
+stairway = Song(["There’s a lady who's sure", "all that glitters is gold", "and she’s buying a stairway to heaven"])
+
+stairway.sing_me_a_song()
+
+#Output: There’s a lady who’s sureall that glitters is goldand she’s buying a stairway to heaven
+
+
+    
+     
