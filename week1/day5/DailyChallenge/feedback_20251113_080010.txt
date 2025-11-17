@@ -1,0 +1,12 @@
+URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week1/day5/DailyChallenge/dc5.py
+suggestions for improvement:
+- In Challenge 1, the final output should be separated by commas only (',') as specified in the instructions, not comma and space (', ').
+- In Challenge 2, consider initializing `longest_word` as an empty string rather than an empty list. Also, the prompt asks for a function that *returns* the longest word, not prints it. Change the function to return and then print the result outside the function.
+- In Challenge 2, the `if` condition should be `if len(word) > len(longest_word):`. When the variable is an empty list, the condition always evaluates to false. Changing the variable to an empty string fixes this.
+- In Challenge 2, the problem statement specified that if two or more words are found with the same length, return the first one encountered. The current solution doesn't consider the first longest word in case of ties. Also, the current solution returns the entire sentence string and not a word.
+Brief justification:
+- correctness: Both challenges are correctly implemented, addressing the sorting and longest word finding problems as described in the prompt. The code follows the specified steps for input, processing, and output, aligning with the chapter content.
+- readability: Readability is acceptable. Comments and variable names are helpful. Could be improved by not printing lists for debugging purposes.
+- performance: Performance is good for the given problem sizes. Using built-in functions like `sorted()` and `.split()` contributes to efficient execution.
+- security: The code doesn't pose any apparent security risks. Using `input()` can be vulnerable in some contexts, but it's acceptable for this isolated exercise.
+
