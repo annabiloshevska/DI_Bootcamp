@@ -1,0 +1,9 @@
+URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week2/day3/ExerciseXP/xp2.3.py
+suggestions for improvement:
+- The code provided solves a completely different problem from the one outlined in the chapter content, the chapter content is about OOP and creating a Circle class with specific dunder methods, while the code implements a Currency class and unrelated exercises using date and faker modules.
+Brief justification:
+- correctness: The provided code addresses a completely different problem than the one described in the chapter content. The chapter is about creating a `Circle` class with certain functionalities, while the code defines a `Currency` class and other unrelated exercises.
+- readability: N/A
+- performance: N/A
+- security: N/A
+
