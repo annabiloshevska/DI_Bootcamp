@@ -1,0 +1,11 @@
+URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week2/day1/ExerciseXP/xp2.1.py
+suggestions for improvement:
+- In Exercise 3, the output in the example is not what it should be. It should print each line on a new line.
+- In the Zoo exercise, consider adding the bonus feature to the add_animal method to accept multiple animals at once using *args.
+- For Exercise 4 (Zoo), consider adding a check in `get_groups()` to handle the case where `sort_animals()` hasn't been called yet. Currently, it relies on `self.grouped_animals` being initialized elsewhere.
+Brief justification:
+- correctness: The code correctly implements the classes, methods, and functionalities described in each exercise. The Cat, Dog, Song, and Zoo classes are all implemented as specified. All the core requirements are met, including object creation, method calling, attribute handling, and conditional statements. There is a minor display error in the Song class example output in the comments, but the code is correct. All tests pass and produce the expected results. All the functions are correctly implemented.
+- readability: The code is well-structured and easy to read. Class and method names are descriptive, and the code is properly indented. Comments are used effectively to explain the purpose of each section of the code.
+- performance: The code's performance is generally good. It uses simple data structures and algorithms, and there are no obvious performance bottlenecks. The operations are efficient for the scale of the problem.
+- security: The code does not involve any user input or external data sources, so there are no significant security concerns.
+

@@ -1,0 +1,12 @@
+URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week1/day2/ExerciseXP/exercise1.2.1.py
+suggestions for improvement:
+- In exercise 3, although `basket.count("Apples")` is present, the result is not stored or used. While the list is eventually cleared, the task mentions to count how many times apples appear in the list, which should include printing the count result or using the result in some way.
+- In exercise 7, the code asks for pizza toppings instead of fruits, so it does not completely align to the question.
+- In exercise 7, there's no implementation for asking favorite fruits and checking if other fruit in the list.
+- Exercise 9 has a typo with `if 1 <= client_age <= 3:`, should start from 0.
+Brief justification:
+- correctness: The code correctly addresses most of the exercises, demonstrating understanding of sets, tuples, lists, loops, and conditionals. It loses some points in exercise 3 and 7 due to not fulfilling all the instructions or not correctly linking to the question requirements.
+- readability: The code is generally readable with clear variable names and comments. Some sections could benefit from additional comments to explain complex logic, but overall, the structure is good.
+- performance: The code performs efficiently for the given tasks. The use of appropriate data structures and algorithms ensures reasonable performance for the expected input sizes.
+- security: The code is reasonably secure, with the exception of exercise 9. Input validation is used in some places, and there are no obvious vulnerabilities.
+

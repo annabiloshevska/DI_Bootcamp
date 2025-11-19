@@ -1,0 +1,12 @@
+URL: URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week2/day3/ExerciseXP/func.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week2/day3/ExerciseXP/xp2.3.py
+suggestions for improvement:
+- For Exercise 2, it would be beneficial to include the content of `func.py` to ensure the solution is complete and self-contained for review.
+- In Exercise 5, consider making the target year dynamic (e.g., always targeting January 1st of the *next* year) rather than hardcoding '2026'.
+- In Exercise 6, handling potential `ValueError` exceptions from invalid date inputs would improve robustness.
+Correctness: 90%
+-----
