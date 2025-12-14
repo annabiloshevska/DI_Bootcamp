@@ -1,0 +1,13 @@
+URL: URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week2/day5/ExerciseXP/anagrams.py
+suggestions for improvement:
+- Consider adding more robust error handling, such as handling file not found exceptions.
+- For performance with very large word lists, consider pre-calculating sorted word signatures during initialization instead of repeatedly sorting in `is_anagram`.
+Correctness: 100%
+-----
+URL: URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week2/day5/ExerciseXP/anagram_checker.py
+suggestions for improvement:
+- Consider adding docstrings to the class and methods to improve readability.
+- The conditional logic in `is_valid_word` and `is_anagram` can be simplified by directly returning the boolean expression.
+- The original file path was absolute and hardcoded, consider using relative paths to enhance portability
+Correctness: 100%
+-----
