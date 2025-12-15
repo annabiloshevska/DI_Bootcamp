@@ -1,0 +1,10 @@
+URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week6/day1/ExerciseXP/XPw6d1.sql
+suggestions for improvement:
+- Consider adding comments to explain the purpose of each query section for enhanced readability.
+- While not strictly necessary, using more descriptive names for the primary key columns (e.g., item_id instead of items_id in the items table) could improve clarity.
+Brief justification:
+- correctness: The code accurately implements all instructions from the exercise. It creates the tables, populates them with the specified data, and performs the requested SELECT queries, fulfilling all requirements outlined in Exercise 1. The queries return the expected results.
+- readability: The code is generally well-formatted and easy to understand. The use of comments, while minimal, helps to indicate the purpose of different sections. Consistent naming conventions are followed.
+- performance: The SQL queries are straightforward and efficient for the given task and dataset size. Indexing is not explicitly needed at this scale, so performance is adequate.
+- security: The code uses parameterized queries implicitly by inserting data directly which prevents SQL injection vulnerabilities. The code does not expose any sensitive data or operations.
+

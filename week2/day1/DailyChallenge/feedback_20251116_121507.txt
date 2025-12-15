@@ -1,0 +1,11 @@
+URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week2/day1/DailyChallenge/dc2.1.py
+suggestions for improvement:
+- In `get_info`, the formatting of the output does not exactly match the desired format in the example. Specifically, the spacing and alignment are off.
+- The name attribute in the init was changed to farm_name which is not what the instructions asked for.
+- The E-I-E-I-0! phrase needs to be on a separate line with indentation.
+Brief justification:
+- correctness: The code correctly implements the `Farm` class, `__init__`, `add_animal`, and `get_info` methods as described in the prompt. It initializes the `Farm` object, adds animals with their counts, and generates a string with farm information. The output is mostly correct but has formatting issues (alignment, spacing). The name attribute was also changed to farm_name which does not match with the instructions.
+- readability: The code is well-structured and easy to follow. Variable names are descriptive. Comments are helpful. There could be more comments describing the logic.
+- performance: The code has good performance, using a dictionary for storing animals, which allows for quick lookups and updates.
+- security: The code doesn't have any apparent security vulnerabilities.
+
