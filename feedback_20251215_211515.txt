@@ -1,0 +1,13 @@
+URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week6/day2/ExerciseXP/XPw6d2(part_1).sql
+suggestions for improvement:
+- The provided SQL code snippets target a table named 'items' which is not mentioned in the exercise instructions. Exercise 1 uses the 'public' database, presumably the one created in a prior lesson, which might contain the tables 'items' and 'customers', but this isn't explicitly confirmed. Exercise 2 explicitly requires using the 'dvdrental' database.
+- The code snippets do not fully address the specific requirements of Exercise 1, specifically tasks 3 (selecting the first 3 customers in alphabetical order by first name, excluding the primary key) and task 4 (selecting all last names in reverse alphabetical order).
+- The provided code should be modified to correctly target the appropriate tables ('customers' or 'items', depending on the database structure) and accurately implement all query requirements, including filtering, ordering, and column selection.
+Correctness: 0%
+-----
+URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week6/day2/ExerciseXP/dvdrentalXPw6d2.sql
+suggestions for improvement:
+- The query for the 10 cheapest movies could potentially be improved by using a window function for ranking, but the current solution is perfectly acceptable.
+- Consider using table aliases consistently throughout your queries to improve readability, especially in joins.
+Correctness: 100%
+-----

@@ -1,0 +1,10 @@
+URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week1/day3/DailyChallenge/dc3.py
+suggestions for improvement:
+- Consider adding comments to explain the purpose of each section of the code, especially the data cleaning part in Challenge 2.
+- For Challenge 2, the dictionary `items_purchase` is hardcoded; consider making it dynamic or reading it from an external source for more flexibility.
+Brief justification:
+- correctness: Both challenges are correctly implemented. Challenge 1 accurately creates the letter index dictionary as described. Challenge 2 successfully filters affordable items and sorts the basket, returning 'Nothing' when appropriate, precisely as the problem statement requires.
+- readability: The code is generally readable with clear variable names and straightforward logic. However, adding comments would enhance readability, especially for those unfamiliar with the code.
+- performance: The code's performance is efficient for the given problem sizes. Using `enumerate` in Challenge 1 is a good practice.  The data cleaning and filtering in Challenge 2 are also reasonably performant for the expected scale.
+- security: The code doesn't involve any user-generated code execution or external system calls, minimizing security risks.  However, always be cautious when processing user inputs in a real-world application (although the provided code does not have this issue for challenge 2).
+

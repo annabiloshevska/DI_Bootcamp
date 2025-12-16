@@ -1,0 +1,10 @@
+URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week6/day3/ExerciseXP/XPdvdw6d3(part_2).sql
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week6/day3/ExerciseXP/XPdvdw6d3.sql
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----

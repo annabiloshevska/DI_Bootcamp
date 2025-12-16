@@ -1,0 +1,11 @@
+URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week1/day5/mini_project_w1.py
+suggestions for improvement:
+- The player_input function could be improved by using a loop to continuously prompt the user for input until a valid move is entered.
+- Consider adding input validation to ensure the player enters an integer, and handle potential ValueError exceptions.
+- The check_win function can be refactored to reduce code duplication by using loops or helper functions to check rows, columns, and diagonals.
+Brief justification:
+- correctness: The code implements the Tic Tac Toe game as described in the prompt, including board representation, display, player input, win condition check, and tie check. The core functionality works well, but input validation in `player_input` could be improved. All major steps are present and mostly functional, hence the 85% score.
+- readability: The code is generally well-structured and uses meaningful variable names, making it easy to understand. The display_board function provides a clear visual representation of the game board.
+- performance: The performance is adequate for this simple game. There's no significant performance bottleneck, although the win check could be slightly optimized to avoid redundant checks.
+- security: The code doesn't appear to have any major security vulnerabilities. The input is validated to some extent, preventing out-of-bounds access, but better handling of potential errors like non-integer input would improve robustness.
+
