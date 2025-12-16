@@ -1,0 +1,15 @@
+URL: URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week2/day2/ExerciseXP/xpDog.py
+suggestions for improvement:
+- In Exercise 1, the `sing` method in Bengal class should accept `sounds` as the parameter, not `name` and `sounds`.
+- In Exercise 1, you don't have to define `__init__` in the `Bengal` and `Chartreux` classes if you only use `super().__init__(name, age)` there.
+- In Exercise 1, you should implement the jump method in the Siamese class.
+- In Exercise 4, inside the Person class's init method, the line 'last_name = ("")' does not assign the empty string to the instance's last_name attribute. It instead defines a local variable that shadows the attribute, you should remove this line.
+- Exercise 3 is missing.
+Correctness: 75%
+-----
+URL: URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week2/day2/ExerciseXP/xpPetDogs.py
+suggestions for improvement:
+- Consider adding docstrings to the class and methods to improve readability.
+- The play method could be improved by ensuring that the arguments are Dog instances, or handling the exception.
+Correctness: 100%
+-----
