@@ -1,0 +1,14 @@
+URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week6/day4/ExerciseXP/XPweek6day4olympic.sql
+suggestions for improvement:
+- In Task 2 of Exercise 1, the `COUNT(DISTINCT event_id > 3)` within the subquery is incorrect. It should be `COUNT(DISTINCT event_id)` and the `HAVING` clause should be `HAVING COUNT(DISTINCT event_id) > 3`.
+- In Task 4 of Exercise 1, it's good practice to check if the temporary table exists before attempting to delete from it.
+- In Task 1 of Exercise 2, the nested subquery could be simplified by joining `person_region` directly to `person` instead of using `IN`.
+- In Task 3 of Exercise 2, clarify the medal filtering condition in the overall average calculation to match the region-specific average (medal_id <> 4)
+- Adding indexes on frequently joined columns improves performance.  Good job adding some!
+- For better readability, consider using aliases more consistently throughout the queries.
+Brief justification:
+- correctness: The code generally addresses the tasks described in the chapter content, demonstrating the use of subqueries and temporary tables. However, there are a couple of errors in the logic of specific tasks, like the incorrect `COUNT(DISTINCT event_id > 3)` in Task 2 of Exercise 1. Task 3 in exercise 2 should also be adjusted to filter for medal_id <> 4
+- readability: The code is mostly readable with consistent formatting and indentation.  However, more descriptive aliases and comments could further improve readability.
+- performance: The code uses subqueries appropriately, but some subqueries (e.g., in Task 1 of Exercise 2) could be optimized with joins. The inclusion of indexes on `person_region` is excellent for improving performance. I removed the create indexes IF NOT EXISTS for sqlite
+- security: The code does not appear to have any obvious security vulnerabilities. The use of parameterized queries (if applicable in the environment) would further enhance security, but this wasn't part of the exercise.
+

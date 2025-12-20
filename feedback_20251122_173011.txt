@@ -1,0 +1,11 @@
+URL: URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week2/day5/ExerciseXP/game.py
+suggestions for improvement:
+- Consider adding more descriptive variable names where appropriate to further enhance readability.
+- The code could be slightly optimized by using a dictionary or a similar data structure to represent the game rules instead of multiple if/elif conditions in `get_game_result`.
+Correctness: 100%
+-----
+URL: URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week2/day5/ExerciseXP/rock-paper-scissors.py
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----

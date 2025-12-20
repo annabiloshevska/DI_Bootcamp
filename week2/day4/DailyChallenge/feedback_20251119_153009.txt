@@ -1,0 +1,11 @@
+URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week2/day4/DailyChallenge/dc2.4.py
+suggestions for improvement:
+- Consider adding more comprehensive error handling, especially in the `from_file` method, to handle cases where the file might not exist or is unreadable.
+- The stop words list is hardcoded, consider reading it from a file to make it more configurable.
+- The initial print statements are using methods from the TextModification class, but creating an instance of it. Consider creating instances of each class as needed, and avoiding class confusion.
+Brief justification:
+- correctness: The code correctly implements all the required methods in the `Text` and `TextModification` classes, including `word_frequency`, `most_common_word`, `unique_words`, `from_file`, `remove_punctuation`, `remove_stop_words`, and `remove_special_characters`. It accurately addresses all parts of the problem statement.
+- readability: The code is generally well-readable, with clear variable names and consistent indentation.  Comments are helpful. Could be improved with more detailed docstrings for each method.
+- performance: The code's performance is generally good. The methods use appropriate data structures (dictionaries and sets) for efficient processing. The `remove_stop_words` could be potentially optimized with a set lookup for stop words.
+- security: The code appears to be secure. File handling is done using a `with` statement, which ensures proper resource management. Regular expressions are used safely. However, be cautious about reading data from untrusted files, as that could lead to potential vulnerabilities if the file content is maliciously crafted (though that is outside the scope of this specific exercise).
+
