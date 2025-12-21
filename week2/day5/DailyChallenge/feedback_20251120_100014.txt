@@ -1,0 +1,6 @@
+URL: URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week2/day5/DailyChallenge/dc2.5.py
+suggestions for improvement:
+- Consider adding docstrings to your classes and methods to improve readability and maintainability.
+- The `__str__` method in the `Card` class enhances readability when printing card objects, which is a good practice.
+Correctness: 100%
+-----

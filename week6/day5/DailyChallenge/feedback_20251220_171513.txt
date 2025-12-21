@@ -1,0 +1,10 @@
+URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week6/day5/DailyChallenge/DCweek6day5_movies.sql
+suggestions for improvement:
+- Consider adding comments to explain the logic within CTEs for better readability.
+- For Task 4, ensure the keyword selection truly represents a movie series and avoids coincidental keyword matches.
+Brief justification:
+- correctness: The code correctly implements all four tasks as described in the chapter content. Each task's SQL query accurately addresses the problem statement, utilizing window functions and CTEs effectively. All the tasks are completed.
+- readability: The code is generally well-formatted and easy to understand. The use of CTEs enhances readability by breaking down complex queries into smaller, logical steps.  However, more comments could be added within the CTEs to further clarify the logic.
+- performance: The code's performance is adequate. The use of window functions is appropriate for the tasks, but performance could be improved by ensuring proper indexing on the joined columns.  Specifically, Task 4, which uses keyword matching, might benefit from optimization if the keyword table is very large.
+- security: The code appears secure, with no immediately obvious vulnerabilities. It uses standard SQL syntax and doesn't include any dynamic SQL or user-supplied input that could lead to SQL injection.
+

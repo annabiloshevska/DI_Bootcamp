@@ -1,0 +1,10 @@
+URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week6/day4/DailyChallenge/DCweek6day4.sql
+suggestions for improvement:
+- Consider adding comments to explain the purpose of each step in the queries, especially for the subqueries.
+- For Task 1 in Exercise 1, the final SELECT statement filters for competitors who participated in both seasons but doesn't output the medal counts per season as the prompt requested.
+Brief justification:
+- correctness: The code accurately addresses all four tasks outlined in the chapter content. Each task is correctly implemented using SQL, including the creation of temporary tables and the use of subqueries where required. The code directly aligns with the requirements of each exercise task.
+- readability: The code is generally readable due to consistent formatting and clear naming conventions. However, more comments could enhance understanding, particularly in complex subqueries.
+- performance: The performance seems reasonable, using appropriate indexing and aggregation techniques. However, performance could be improved by carefully evaluating the execution plans of the more complex queries, especially those involving joins and subqueries.
+- security: The code appears secure, with no immediately obvious vulnerabilities. It uses standard SQL practices without dynamic SQL or user inputs, mitigating risks of SQL injection. However, input validation and sanitization are still generally good practices.
+
