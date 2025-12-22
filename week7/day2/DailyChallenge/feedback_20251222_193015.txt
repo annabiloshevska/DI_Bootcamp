@@ -1,0 +1,6 @@
+URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week7/day2/DailyChallenge/DCweek7day2.xlsx
+suggestions for improvement:
+- This looks like a plain text data dump, not code to perform filtering in Excel.
+- The submission needs to demonstrate the actual filtering in Excel as requested in the challenge.
+Correctness: 0%
+-----
