@@ -1,0 +1,10 @@
+URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week7/day1/DailyChallenge/DCweek7day1employees.sql
+suggestions for improvement:
+- Consider adding comments to each section of the SQL script to clearly indicate which task from the challenge is being addressed.
+- For outlier detection, explore more robust methods like the IQR (Interquartile Range) method, which can be less sensitive to extreme values than standard deviation.
+Brief justification:
+- correctness: The code accurately addresses all requirements outlined in the chapter content. It correctly handles missing values, eliminates duplicates, corrects structural issues, ensures proper data types, addresses outliers, and standardizes/normalizes data. Each step from the challenge is addressed directly with SQL queries.
+- readability: The code is generally readable with clear SQL syntax. However, adding more comments to delineate each task (e.g., 'Handling Missing Values', 'Removing Duplicates') would significantly improve readability.
+- performance: The code demonstrates reasonable performance for the given dataset size. The queries are standard and optimized for common database systems. Indexing on employee_id could further improve the performance of duplicate removal.
+- security: The code does not present any obvious security vulnerabilities. The use of parameterized queries (although not explicitly shown here) should be encouraged in a real-world application to prevent SQL injection attacks.
+
