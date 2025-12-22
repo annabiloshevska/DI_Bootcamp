@@ -1,0 +1,9 @@
+URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week7/day2/ExerciseXP/XPweek7day2.xlsx
+suggestions for improvement:
+- The response includes a mix of a beetle length calculation and property sales data, making it unclear which exercise it's trying to address.
+- The 'beetle' section needs to clearly indicate the Excel formulas used for the calculations. Including the results without the formulas is not helpful.
+- The file upload is missing so it is hard to verify results and understand data structures.
+- The data has to be organized by headers and columns for each exercise.
+- The second section of the response (the sales data) does not appear to be directly related to any of the exercises, resulting in a lower overall correctness score.
+Correctness: 50%
+-----
