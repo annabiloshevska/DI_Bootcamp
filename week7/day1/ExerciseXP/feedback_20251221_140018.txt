@@ -1,0 +1,11 @@
+URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week7/day1/ExerciseXP/XPweek7day1companies.sql
+suggestions for improvement:
+- In Exercise 1, the date conversion is specific to the date format in the dataset. A more robust approach would use the `strftime` function to handle different date formats or consider using a dedicated date parsing function if available.
+- In Exercise 5, to find maximum employees per month use LIMIT clause with the order by in descending order instead of TOP (1)
+- Exercise 5, the dataset does not have year, be sure to extract the year before doing the calculation
+Brief justification:
+- correctness: The code mostly addresses the exercises accurately. Exercise 1 correctly creates a temporary table and joins the tables, but the date conversion is specific to the format in the dataset. Exercises 2, 3 and 4 are correctly implemented. Exercise 5, has issue with extracting maximum employees throughout all the months.
+- readability: The code is generally readable. The SQL queries are well-formatted and easy to understand. However, adding comments to explain the purpose of each step would further improve readability.
+- performance: The queries are reasonably performant for the given dataset size. However, for larger datasets, consider adding indexes to the columns used in JOIN and WHERE clauses to improve query performance.
+- security: The code itself doesn't directly introduce security vulnerabilities. However, when using this code in a real-world application, ensure that proper input validation and sanitization are performed to prevent SQL injection attacks. Also, avoid storing sensitive information directly in the database.
+

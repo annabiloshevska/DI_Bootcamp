@@ -1,0 +1,10 @@
+URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week6/day1/DailyChallenge/DCactorsw6d1.sql
+suggestions for improvement:
+- Consider adding comments to explain the purpose of each SQL statement, especially for complex queries.
+- While not explicitly required, using parameterized queries would enhance security, although this might be beyond the scope of a basic SQL exercise.
+Brief justification:
+- correctness: The code directly addresses the exercise instructions: it counts the actors in the table using `SELECT count(*) FROM actors` and demonstrates inserting a new actor, including the possibility of blank fields (NULL). The attempt to insert data fulfills the second instruction.
+- readability: The code is generally readable, with clear SQL syntax. Consistent formatting and indentation improve readability.
+- performance: The queries are performant for the given context and table size. Using `SELECT count(*)` is an efficient way to count rows.
+- security: The SQL statements themselves don't present immediate security risks. However, avoid directly embedding user inputs into queries, as that could lead to SQL injection vulnerabilities in real-world applications.
+

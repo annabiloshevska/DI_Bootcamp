@@ -1,0 +1,13 @@
+URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week6/day3/DailyChallenge/DCw6d3(part_1).sql
+suggestions for improvement:
+- Consider adding comments to explain complex queries or table structures.
+- Use consistent naming conventions for tables and columns.
+Correctness: 100%
+-----
+URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week6/day3/DailyChallenge/DCw6d3(part_2).sql
+suggestions for improvement:
+- The code only implements part II of the exercise. Part I is missing completely. The submission focuses on creating tables and relationships for books, students, and a library, which aligns with the second part of the provided instructions, but fails to address the first part regarding Customers and Customer Profiles.
+- In the library table creation, you included borrowed_date as part of the primary key. This might not be necessary if a student can borrow the same book multiple times on different dates. Consider if that's the desired behavior.
+- Consider adding indexes on foreign key columns in the library table for improved query performance.
+Correctness: 70%
+-----

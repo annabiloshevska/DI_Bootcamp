@@ -1,0 +1,10 @@
+URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week6/day5/ExerciseXP/XPweek6day5_movies.sql
+suggestions for improvement:
+- Consider adding comments to explain the logic behind the window function's PARTITION BY and ORDER BY clauses in more complex queries.
+- For Task 3 in Exercise 2, using movie_cast table includes all actors which is correct, but the movie_crew table also includes actors, this may cause confusion if there is an edge case
+Brief justification:
+- correctness: All tasks are correctly implemented using appropriate SQL window functions and CTEs as described in the chapter content. Each task addresses the prompt accurately, and the code returns the expected results.
+- readability: The code is generally well-formatted and easy to understand. Variable names are descriptive.  Adding more comments, especially for complex window function clauses, could further enhance readability.
+- performance: The queries are efficient and utilize appropriate indexes where necessary. Performance could be improved by ensuring that the joins are optimized and that there are appropriate indexes on the joined columns.
+- security: The code does not have any apparent security vulnerabilities. All queries are read-only and do not modify data.
+
