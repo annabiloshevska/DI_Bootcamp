@@ -1,0 +1,11 @@
+URL: https://github.com/annabiloshevska/DI_Bootcamp/blob/main/week8/day3/Mini_project_week8.ipynb
+suggestions for improvement:
+- The code scrapes a website, but not the one specified in the instructions (inmotionhosting.com). It scrapes books.toscrape.com instead. This is a major deviation from the requirement.
+- The code could be more modular by defining functions for specific tasks like extracting data for individual plans.
+- Error handling could be implemented (e.g., try-except blocks) to handle cases where elements are not found on the page.
+Brief justification:
+- correctness: The code performs web scraping using Selenium and BeautifulSoup and saves the data to a CSV, but scrapes the WRONG website. The task specifies inmotionhosting.com, but the code scrapes books.toscrape.com. This is a major failure to meet the task requirements. While the general scraping process is correct, the content and source are completely off.
+- readability: The code is reasonably readable, with clear variable names and comments. However, it could be improved by organizing the code into smaller, more manageable functions.
+- performance: The code's performance is acceptable, but could be improved by optimizing the element selection process. Consider using more specific CSS selectors or XPath expressions to locate elements faster.
+- security: The code doesn't have any obvious security vulnerabilities, but as with any web scraping project, it's important to be mindful of rate limiting and avoid overloading the target server.
+
